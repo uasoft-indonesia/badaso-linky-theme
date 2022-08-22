@@ -7,7 +7,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('linky-theme::pages.landing-page');
+        return view('linky-theme::layout.app');
     }
 
 
