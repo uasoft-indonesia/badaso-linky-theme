@@ -1,10 +1,10 @@
 <?php
 
-namespace Database\Seeders\Badaso\LandyTheme;
+namespace Database\Seeders\Badaso\LinkyTheme;
 
 use Illuminate\Database\Seeder;
 
-class BadasoLandyThemeSeeder extends Seeder
+class BadasoLinkyThemeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,10 +13,10 @@ class BadasoLandyThemeSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(LandyThemeMenusSeeder::class);
-        $this->call(LandyThemeFixedMenuItemSeeder::class);
-        $this->call(LandyThemePermissionsSeeder::class);
-        $this->call(LandyThemeContentsSeeder::class);
-        $this->call(LandyThemeConfigurationsSeeder::class);
+        $this->call(LinkyThemeMenusSeeder::class);
+        $this->call(LinkyThemeFixedMenuItemSeeder::class);
+        $this->call(LinkyThemePermissionsSeeder::class);
+        $this->call(LinkyThemeContentsSeeder::class);
+        $this->call(LinkyThemeConfigurationsSeeder::class);
     }
 }
