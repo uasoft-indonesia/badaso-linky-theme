@@ -73,7 +73,7 @@ class LinkyThemeSetup extends Command
              mix.js("vendor/badaso/linky-theme/src/resources/js/app.js", "public/js/linky-theme.js")
              .js("vendor/badaso/linky-theme/src/resources/js/index/linky-theme.js", "public/js/index/linky-theme.js")
              .css("vendor/badaso/linky-theme/src/resources/js/assets/css/style.css","public/css/linky-theme.css",{},[
-             require("tailwindcss")('./tailwind.config.js'),
+             require("tailwindcss")('./tailwind-linky.config.js'),
              require("autoprefixer"),
         ]
         )
