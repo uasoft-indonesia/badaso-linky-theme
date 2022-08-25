@@ -33,7 +33,7 @@ class LinkyThemeServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../Seeder'                       => database_path('seeders/Badaso/LinkyTheme'),
             __DIR__.'/../Config/badaso-linky-theme.php' => config_path('badaso-linky-theme.php'),
-            __DIR__.'/../Images/thumbnail-linky/' => storage_path('app/public/photos/linky'),
+            __DIR__.'/../Images/thumbnail-linky/' => storage_path('app/public/photos/1'),
             __DIR__.'/../resources/customization/'     => resource_path('js/badaso/theme/linky-theme/'),
             __DIR__ . '/../Tailwind/'                      => base_path(),
         ], 'BadasoLinkyTheme');
