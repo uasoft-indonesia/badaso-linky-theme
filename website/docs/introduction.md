@@ -12,8 +12,7 @@ slug: /
 <p><b>badaso/linky-theme</b></p>
 </p>
 
-<p align="left">Official linky theme for badaso</p>
-<p align="left">linky-theme is free theme on badaso, create linky theme site faster.</p>
+<p align="left">Badaso linky is official free theme for create website link on badaso.</p>
 <br />
 
 <p align="center">
@@ -21,8 +20,6 @@ slug: /
 </p>
 
 <p align="center">
-  <a href="https://badaso-docs.uatech.co.id/">
-    <img src="http://localhost:3000/img/badaso-linky-theme-preview.png" alt="screencapture-badaso-dashboard-uatech-co-id-dashboard-crud-2021-03-17-09-57-08-1" />
-  </a>
+  <img src="/img/badaso-linky-theme-preview.png" alt="badaso-linky" />
 </p>
 
