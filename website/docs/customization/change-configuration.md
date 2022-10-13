@@ -2,13 +2,13 @@
 sidebar_position: 4
 ---
 
-# Costumization Linky Theme
+# Tema Tautan Kostumisasi
 
-To customize your linky theme, you can follow these steps:
+Untuk menyesuaikan tema tautan Anda, Anda dapat mengikuti langkah-langkah ini:
 
-1. Go to the Linky Theme Menu, click Configuration
-2. In title website column, insert title your website's linky theme
-3. Click update configuration when you are done editing
+1. Buka Menu Tema Linky, klik Konfigurasi
+2. Di kolom judul situs web, masukkan judul tema tautan situs web Anda
+3. Klik perbarui konfigurasi setelah selesai mengedit
 
 <p align="center">
   <a href="https://badaso-docs.uatech.co.id/">

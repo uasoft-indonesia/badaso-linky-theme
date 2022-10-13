@@ -9,13 +9,15 @@ slug: /
   <a href="https://badaso-docs.uatech.co.id/">
     <img src="img/badaso-module-logo.png" width="150px" alt="Badaso logo" />  
   </a>
-  <p>badaso/linky-theme</p>
+<p><b>badaso/linky-theme</b></p>
 </p>
 
-<p align="left">Tampilan perdagangan resmi untuk <a href="https://github.com/uasoft-indonesia/badaso-linky-theme">badaso linky theme module</a></p>
-<p align="left">Pengembangan nol untuk tampilan blog di badaso, buat tampilan blog lebih cepat.</p>
+<p align="left">Tema Linky Resmi untuk badaso</p>
+<p align="left">Linky badaso adalah tema gratis resmi untuk membuat tautan situs web di badaso</p>
+<p align="left">Dibangun menggunakan Alpin JS dan Tailwind css</p>
+
 <br />
 
 <p align="center">
-  <p align="center"><a href="https://badaso-demo.uatech.co.id/post" target="_blank">Coba demo langsung</a></p>
+  <p align="center"><a href="https://badaso-demo.uatech.co.id/linky" target="_blank">Coba demo langsung</a></p>
 </p>
