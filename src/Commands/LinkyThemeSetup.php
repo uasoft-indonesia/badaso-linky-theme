@@ -70,8 +70,7 @@ class LinkyThemeSetup extends Command
                 <<<'EOT'
 
         // Badaso Linky Theme
-             mix.js("vendor/badaso/linky-theme/src/resources/js/app.js", "public/js/linky-theme.js")
-             .js("vendor/badaso/linky-theme/src/resources/js/index/linky-theme.js", "public/js/index/linky-theme.js")
+             mix.js("vendor/badaso/linky-theme/src/resources/js/index/linky-theme.js", "public/js/index/linky-theme.js")
              .css("vendor/badaso/linky-theme/src/resources/js/assets/css/style.css","public/css/linky-theme.css",{},[
              require("tailwindcss")('./tailwind-linky.config.js'),
              require("autoprefixer"),
@@ -137,9 +136,7 @@ class LinkyThemeSetup extends Command
 
         $decoded_json['dependencies']['daisyui'] = '^2.13.6';
         $decoded_json['dependencies']['alpinejs'] = '^3.10.2';
-
         $decoded_json['dependencies']['tailwindcss'] = '^3.0.23';
-        $decoded_json['devDependencies']['postcss'] = '^8.1.14';
 
         $encoded_json = json_encode($decoded_json, JSON_PRETTY_PRINT);
         file_put_contents(base_path('package.json'), $encoded_json);

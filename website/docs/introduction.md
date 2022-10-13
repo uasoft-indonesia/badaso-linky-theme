@@ -12,8 +12,10 @@ slug: /
 <p><b>badaso/linky-theme</b></p>
 </p>
 
-<p align="left">Official linky theme for badaso</p>
-<p align="left">linky-theme is free theme on badaso, create linky theme site faster.</p>
+<p align="left">Official Linky Theme for badaso</p>
+<p align="left">Badaso linky is official free theme for create website link on badaso</p>
+<p align="left">Build with Alpin JS and Tailwind css</p>
+
 <br />
 
 <p align="center">
