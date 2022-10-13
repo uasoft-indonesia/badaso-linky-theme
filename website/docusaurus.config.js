@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
     title: "Badaso Linky Theme Documentation",
     tagline: "Badaso linky theme official documentation",
-    url: "https://badaso-linky-theme.uatech.co.id",
+    url: "https://badaso-linky.uatech.co.id",
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
