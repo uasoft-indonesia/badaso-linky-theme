@@ -4,6 +4,7 @@ sidebar_position: 2
 
 # Manage Links 
 
+To manage your menu links content view on the linky theme, you can follow the step :
 1. You can open `Content Manager` in your badaso dashboard
 2. Select item `Linky` and choise `Fill Content' in Action button
 3. Seacrh List Link label
