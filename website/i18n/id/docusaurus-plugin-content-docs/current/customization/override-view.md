@@ -6,10 +6,11 @@ sidebar_position: 2
 
 Untuk mengganti tampilan, Anda dapat mengikuti langkah-langkah berikut:
 
-- Anda harus menjalankan pengaturan tema terlebih dahulu dengan menjalankan perintah `php artisan badaso-landy-theme:setup`.
+- Anda harus menjalankan pengaturan tema terlebih dahulu dengan menjalankan perintah `php artisan badaso-linky-theme:setup`.
 
-- Folder bernama `landy-theme` akan dibuat di folder `resources/js/badaso/theme`.
+- Folder bernama `linky-theme` akan dibuat di folder `resources/view/badaso/theme/page`.
 
-- Di dalam folder `landy-theme`, akan ada folder bernama `pages`. Buat file .vue di dalam folder `pages` dengan nama yang sama dengan halaman. Misalnya, jika Anda ingin mengganti halaman `home`, Anda dapat membuat file `home.vue` di folder `pages`.
+- Di dalam folder `linky-theme`, akan ada folder bernama `pages`. Buat file .php di dalam folder `pages` dengan nama yang sama dengan halaman. Misalnya, jika Anda ingin mengganti halaman `landing-page`, Anda dapat membuat file `landing-page.blade.php` di folder `pages`.
   
-- Anda dapat melihat halaman yang tersedia yang dapat diganti di file `vendor/badaso/landy-theme/src/resources/app/pages/`.
+- Anda dapat melihat halaman yang tersedia yang dapat diganti di file `vendor/badaso/linky-theme/src/resources/view/pages`.
+

@@ -2,13 +2,13 @@
 sidebar_position: 3
 ---
 
-# Alternatif Konfigurasi Google Analytics
+# Google Analytics Configuration Alternative
 
-Alternatif konfigurasi ini digunakan ketika hit google analytics tidak berjalan pada tema badaso linky.
+This configuration alternative is used when hit google analytics is not running on badaso linky theme.
 
-1. Di `.env` tambahkan konfigurasi baru pada kunci `MIX_ANALYTICS_TRACKING_ID`
-2. Dalam `resources/views` buat folder bernama `partials`
-3. Pada folder resources/views/partials buat file blade dengan nama google-analytics.blade.php dengan isi sebagai berikut:
+1. In `.env` add new configuration on `MIX_ANALYTICS_TRACKING_ID` key
+2. In `resources/views` create a folder named `partials`
+3. In the resources/views/partials folder create a blade file with the name google-analytics.blade.php with the following contents:
 
 ```php
 @php
@@ -54,9 +54,9 @@ $measurement_id = env('MIX_ANALYTICS_TRACKING_ID', null);
 
 ```
 
-4. Didalam `resources/views` buat folder baru bernama `vendor/linky-theme`
-5. Salin file `vendor/badaso/linky-theme/src/resources/layout/app.blade.php` ke folder `resources/views/vendor/linky-theme`
-6. Panggil `resources/views/partials/google-analytics.blade.php` in `resources/views/vendor/linky-theme/app.blade.php`
+4. In `resources/views` create a folder named `vendor/linky-theme`
+5. Copy the `vendor/badaso/linky-theme/src/resources/layout/app.blade.php` file to the `resources/views/vendor/linky-theme` folder
+6. Calling `resources/views/partials/google-analytics.blade.php` in `resources/views/vendor/linky-theme/app.blade.php`
 
 ```php
 <!DOCTYPE html>

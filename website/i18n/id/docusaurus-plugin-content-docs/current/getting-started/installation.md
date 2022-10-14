@@ -4,80 +4,72 @@ sidebar_position: 1
 
 # Installation
 
-1. Anda bisa menginstal tema landy dengan mengikuti perintah berikut.
+1. Anda dapat menginstal tema linky dengan perintah berikut.
 
-```
-composer require badaso/landy-theme
-```
+    ```
+    composer require badaso/linky-theme
+    ```
 
-2. (Pilihan) Jalankan perintah berikut untuk mengatur badaso-core. Jika Anda tidak pernah menjalankannya sebelumnya.
+1. (Opsional) Jalankan perintah berikut untuk menyiapkan file badaso-core. Jika Anda tidak pernah menjalankannya sebelumnya.
 
-```
-php artisan badaso:setup
-```
-3. (Pilihan) Jalankan perintah berikut untuk mengatur badaso-content. Jika Anda tidak pernah menjalankannya sebelumnya.
+    ```
+    php artisan badaso:setup
+    ```
+1. (Opsional) Jalankan perintah berikut untuk mengatur badaso-content. Jika Anda tidak pernah menjalankannya sebelumnya.
 
-```
-php artisan badaso-content:setup
-```
+    ```
+    php artisan badaso-content:setup
+    ```
 
-4. (Optional) Jalankan perintah berikut untuk mengatur badaso-post. Jika Anda tidak pernah menjalankannya sebelumnya.
+1. Jalankan perintah berikut untuk mengatur tema
 
-```
-php artisan badaso-post:setup
-```
+    ```
+    php artisan badaso-linky-theme:setup
+    ```
 
-5. Jalankan perintah berikut untuk mengatur tema
+1. Jalankan perintah berikut untuk melakukan migrasi database.
 
-```
-php artisan badaso-landy-theme:setup
-```
+    ```
+    php artisan migrate
+    ```
 
-6. Jalankan perintah berikut untuk migrate database.
+1. (Opsional) Jalankan perintah berikut untuk menghasilkan seeder inti badaso, dan modul konten. Jika Anda tidak pernah menjalankannya sebelumnya.
 
-```
-php artisan migrate
-```
+    ```
+    php artisan db:seed --class="Database\Seeders\Badaso\BadasoSeeder"
 
-7. (Pilihan) Jalankan perintah berikut untuk generate seeder dari badaso core, content module dan post module. Jika Anda tidak pernah menjalankannya sebelumnya.
+    php artisan db:seed --class="Database\Seeders\Badaso\Content\BadasoContentModuleSeeder"
+    ```
 
-```
-php artisan db:seed --class="Database\Seeders\Badaso\BadasoSeeder"
+1. Jalankan perintah untuk menghasilkan seeder tema tautan.
 
-php artisan db:seed --class="Database\Seeders\Badaso\Post\BadasoPostModuleSeeder"
+    ```
+    php artisan db:seed --class='Database\Seeders\Badaso\LinkyTheme\BadasoLinkyThemeSeeder'
+    ```
 
-php artisan db:seed --class="Database\Seeders\Badaso\Content\BadasoContentModuleSeeder"
-```
+1. Tambahkan plugin ke MIX_POST_URL_PREFIX Anda ke .env.
 
-8. Jalankan perintah berikut untuk generate seeder dari Landy theme.
+    ```
+    MIX_BADASO_PLUGINS=content-module,linky-theme
+    ```
 
-```
-php artisan db:seed --class='Database\Seeders\Badaso\LandyTheme\BadasoLandyThemeSeeder'
-```
+1. Tambahkan menu plugin ke MIX_BADASO_MENU Anda ke .env. Jika Anda memiliki menu lain, sertakan menu tersebut menggunakan koma pembatas (,).
+    ```
+    MIX_BADASO_MENU=${MIX_DEFAULT_MENU},content-module,linky-theme
+    ```
 
-9. Tambahkan plugins pada MIX_POST_URL_PREFIX untuk .env.
+1. Instal ketergantungan JS
+    ```
+    npm install
+    ```
 
-```
-MIX_BADASO_PLUGINS=content-module,post-module,landy-theme
-```
+1. Bangun ketergantungan JS.
+    ```
+    npm run watch
+    ```
 
-10. Tambahkan menu plugins  ke MIX_BADASO_MENU anda pada .env.Jika anda memiliki menu lain, tambahkan mereka setelah koma (,).
-```
-MIX_BADASO_MENU=${MIX_DEFAULT_MENU},content-module,post-module,landy-theme
-```
-
-11. Install JS depedency
-```
-   npm install
-```
-
-12. Bangun JS dependency.
-```
- npm run watch
-```
-
-13. Selesai. Anda bisa mengakses tema landy
-```
-http://localhost:8000/landy
-```
-
+1. Selesai. Anda dapat mengakses tema tautan
+    ```
+    http://localhost:8000/linky
+    ```
+    
