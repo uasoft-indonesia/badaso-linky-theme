@@ -5,7 +5,6 @@
  <title>@yield('title')</title>
  <link href="{{ mix('css/linky-theme.css') }}" rel="stylesheet">
  <script src="{{ mix('js/linky-theme.js') }}" defer></script>
- <script src="{{ mix('js/index/linky-theme.js') }}" defer></script>
  <script src="http://maps.googleapis.com/maps/api/js"></script>
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
