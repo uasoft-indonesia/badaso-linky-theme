@@ -23,8 +23,8 @@ class LinkyThemeConfigurationsSeeder extends Seeder
         try {
             $settings = [
                 0 => [
-                    'key'          => 'LinkyThemeNavbarTitle',
-                    'display_name' => 'Navigation Bar Title',
+                    'key'          => 'linkyThemeSiteTitle',
+                    'display_name' => 'Site Title',
                     'value'        => 'Linky Theme',
                     'details'      => '',
                     'type'         => 'text',
@@ -33,22 +33,12 @@ class LinkyThemeConfigurationsSeeder extends Seeder
                     'can_delete'   => 0,
                 ],
                 1 => [
-                    'key'          => 'LinkyThemeFacebookId',
-                    'display_name' => 'Facebook ID for comment',
-                    'value'        => '',
+                    'key'          => 'linkyThemeFavicon',
+                    'display_name' => 'Favicon Theme',
+                    'value'        => 'photos/1/favicon.png',
                     'details'      => '',
-                    'type'         => 'text',
+                    'type'         => 'upload_image',
                     'order'        => 2,
-                    'group'        => 'linkyTheme',
-                    'can_delete'   => 0,
-                ],
-                2 => [
-                    'key'          => 'LinkyThemeAdsId',
-                    'display_name' => 'Advertisement column',
-                    'value'        => '',
-                    'details'      => '',
-                    'type'         => 'type_image',
-                    'order'        => 3,
                     'group'        => 'linkyTheme',
                     'can_delete'   => 0,
                 ],

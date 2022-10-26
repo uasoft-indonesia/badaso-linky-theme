@@ -25,7 +25,7 @@ class LinkyThemeContentsSeeder extends Seeder
                     'slug' => 'linky',
                     'label' => 'Linky',
                     'value' => '{
-                          "navbarlink": {
+                         "navbarlink": {
                 "name": "navbarlink",
                 "label": "Navbar Link",
                 "type": "group",
@@ -257,6 +257,12 @@ class LinkyThemeContentsSeeder extends Seeder
                         }
                     }
                 ]
+            },
+            "copyright": {
+                "name": "copyright",
+                "label": "Copyright",
+                "type": "text",
+                "data": "© Copyright 2022 | Linky Theme by  UASOFT | All Rights Reserved | Powered by UASOFT"
             }
                     }'
                 ],

@@ -250,7 +250,7 @@ export default {
       get() {
         return [
           {
-            label: 'linky Theme Configuration',
+            label: 'Linky Theme Configuration',
             value: 'linkyTheme'
           }
         ]
