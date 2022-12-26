@@ -13,6 +13,8 @@ slug: /
 </p>
 
 <p align="left">Badaso linky is official free theme for create website link on badaso.</p>
+<p align="left">Build with Alpin JS and Tailwind css</p>
+
 <br />
 
 <p align="center">
