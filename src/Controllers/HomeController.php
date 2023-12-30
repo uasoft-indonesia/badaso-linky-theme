@@ -6,11 +6,6 @@ use Uasoft\Badaso\Theme\LinkyTheme\Helpers\Configurations;
 
 class HomeController extends Controller
 {
-    // public function index()
-    // {
-    //     return view('linky-theme::pages.landing-page');
-    // }
-
     public $prefix = 'badaso.theme.linky-theme';
 
     public function index()
