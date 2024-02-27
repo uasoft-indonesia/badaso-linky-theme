@@ -134,10 +134,10 @@ class LinkyThemeSetup extends Command
         $package_json = file_get_contents(base_path('package.json'));
         $decoded_json = json_decode($package_json, true);
 
-        $decoded_json['dependencies']['daisyui'] = '^2.13.6';
-        $decoded_json['dependencies']['alpinejs'] = '^3.10.2';
+        $decoded_json['dependencies']['daisyui'] = '^4.6.0';
+        $decoded_json['dependencies']['alpinejs'] = '^3.13.5';
 
-        $decoded_json['dependencies']['tailwindcss'] = '^3.0.23';
+        $decoded_json['dependencies']['tailwindcss'] = '^3.4.1';
         $decoded_json['devDependencies']['postcss'] = '^8.1.14';
 
         $encoded_json = json_encode($decoded_json, JSON_PRETTY_PRINT);
